@@ -12,7 +12,7 @@ from reviewbot.processing.review import Review
 
 
 # TODO: Make the cookie file configurable.
-COOKIE_FILE = 'reviewbot-cookies.txt'
+COOKIE_FILE = '/etc/default/reviewbot-cookies.txt'
 # TODO: Include version information in the agent.
 AGENT = 'ReviewBot'
 logger = get_task_logger("WORKER")
